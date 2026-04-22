@@ -1,0 +1,1 @@
+# Reconocimiento-de-palabras-aisladas-usando-Cuantizador-Vectorial
