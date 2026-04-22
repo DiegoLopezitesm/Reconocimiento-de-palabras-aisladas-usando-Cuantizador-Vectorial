@@ -30,7 +30,7 @@ MODEL_DIR      = "models"
 RESULT_DIR     = "results"
 
 # ── Modo de features: "lsf" | "mfcc" | "combined"
-FEATURE_MODE   = "mfcc"     # ← CAMBIAR AQUÍ para experimentar
+FEATURE_MODE   = "mfcc"   
 
 
 # ══════════════════════════════════════════
@@ -146,7 +146,7 @@ def compute_mfcc(frame, n_mfcc=N_MFCC, n_fft=512):
 
 
 # ══════════════════════════════════════════
-#  LPC y LSF  (sin cambios)
+#  LPC y LSF  
 # ══════════════════════════════════════════
 def autocorrelation(frame, order):
     r = np.correlate(frame, frame, mode='full')
